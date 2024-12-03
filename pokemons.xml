@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="UFT-8"?> -->
+<!DOCTYPE pokemons SYSTEM "pokemons.dtd">
+<pokemons>
+	<pokemon>
+		<nombre>Empoleon</nombre>
+		<tipo>agua</tipo>
+		<nivel>140</nivel>
+		<ataques>
+			<ataque>
+				<nombreAtaque>Furia</nombreAtaque>
+				<poder>hace daño en las cabezas</poder>
+			</ataque>
+		</ataques>
+	</pokemon>
+	<pokemon>
+		<nombre>Scorbunny</nombre>
+		<tipo>ruido</tipo>
+		<nivel>100</nivel>
+		<ataques>
+			<ataque>
+				<nombreAtaque>acapella</nombreAtaque>
+				<poder>destroza los oidos de los enemigos</poder>
+			</ataque>
+		</ataques>
+	</pokemon>
+	<pokemon>
+		<nombre>Karlcetines</nombre>
+		<tipo>eléctrico</tipo>
+		<nivel>99</nivel>
+		<ataques>
+			<ataque>
+				<nombreAtaque>zarpazo</nombreAtaque>
+				<poder>corta a cualquier enemigo</poder>
+			</ataque>
+		</ataques>
+	</pokemon>
+</pokemons>
