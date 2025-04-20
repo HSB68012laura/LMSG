@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Henny";
+  src: url("fuentes/HennyPenny-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url(fuentes/Inter-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: "Grace";
+  src: url(fuentes/CoveredByYourGrace-Regular.ttf);
+}
+@font-face {
+  font-family: "Merri";
+  src: url(fuentes/Merriweather_48pt-LightItalic.ttf);
+}
+body {
+  background-color: #f5f0e1;
+}
+h1 {
+  font-family: Henny;
+  text-align: center;
+  letter-spacing: 15px;
+  color: #a0522d;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.subT {
+  font-size: 8pt;
+  margin: 0px 25rem;
+  font-family: Inter;
+  color: #795548;
+}
+.negrita {
+  font-weight: bold;
+}
+cite {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+.textoIzquierda {
+  font-family: Grace;
+  text-align: left;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #212121;
+}
+.textoDerecha {
+  font-family: "Merri";
+  text-align: right;
+  color: white;
+  font-size: 34px;
+  margin: 0;
+  background-color: #795548;
+  padding: 10px;
+}

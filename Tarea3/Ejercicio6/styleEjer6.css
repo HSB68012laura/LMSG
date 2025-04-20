@@ -1,0 +1,26 @@
+body {
+  background-color: #c5e0eb;
+  text-align: justify;
+  font-family: "Arial";
+  font-size: 10pt;
+}
+h1 {
+  color: black;
+  font-size: 30pt;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-skip-ink: none;
+  font-weight: 700;
+  text-align: center;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: #3f99bf;
+  font-size: 20pt;
+}
+blockquote {
+  font-style: italic;
+  line-height: 30px;
+}
+

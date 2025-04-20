@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Fascinate";
+  src: url("fuentes/FascinateInline-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(fuentes/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Marker";
+  src: url(fuentes/PermanentMarker-Regular.ttf);
+}
+body {
+  background-color: #eca;
+}
+h1 {
+  font-family: Fascinate;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+.subT {
+  font-size: 8pt;
+  margin: 0px 25rem;
+  font-family: OpenSans;
+}
+.negrita {
+  font-weight: bold;
+}
+cite {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+.textoIzquierda {
+  font-family: Marker;
+  text-align: left;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 29px;
+}
+.textoDerecha {
+  font-family: "OpenSans";
+  text-align: right;
+  color: white;
+  font-size: 42px;
+  margin: 0;
+  font-weight: 300;
+}

@@ -1,0 +1,60 @@
+.primera {
+	font-family: 'Arial';
+	font-size: 25px;
+}
+
+.azul {
+	color: #0001ff;
+	font-size:50px;
+	text-decoration: line-through;
+	text-decoration-color: #0001ff;
+	position: relative;
+	bottom: -30px;
+}
+
+.verde {
+	color:#00aa00;
+	text-decoration: underline;
+	text-decoration-color: #00aa00;
+	vertical-align: super;
+	
+}
+
+.segunda {
+	font-family: "Arial";
+	font-size: 10px;
+	margin-top: 5em;
+	
+}
+
+.azul-peq{
+	color: #0001ff;
+	font-size:20px;
+	text-decoration: line-through;
+	text-decoration-color: #0001ff;
+	position: relative;
+	bottom: -15px;
+}
+
+.elevado {
+	font-size: 80%;
+	vertical-align: 1px;
+}
+
+.superindice {
+	vertical-align: super;
+	font-size:80%;
+	
+}
+
+.subindice {
+	position: relative;
+	bottom: -5px;
+}
+
+.verde-peq {
+	color:#00aa00;
+	text-decoration: underline;
+	text-decoration-color: #00aa00;
+	vertical-align: super;
+}

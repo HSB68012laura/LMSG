@@ -1,0 +1,45 @@
+body {
+  background-color: #d3dade;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 30pt;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  background-color: #7b919d;
+  font-family: Arial;
+  font-size: 20pt;
+  color: #415057;
+  text-decoration: underline;
+  text-decoration-color: #415057;
+  text-decoration-skip-ink: none;
+}
+p {
+  background-color: #b5c2c8;
+  font-family: Arial;
+  font-size: 12pt;
+  color: black;
+}
+.blanco {
+  background-color: white;
+  background-position: 100%;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: right;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+h3 {
+  background-color: #98aab3;
+  font-family: Arial;
+  font-size: 15pt;
+  color: #566b75;
+  font-style: italic;
+}

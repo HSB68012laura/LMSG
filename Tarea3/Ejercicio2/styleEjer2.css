@@ -1,0 +1,26 @@
+.pre {
+	font-family: 'Courier New';
+	white-space: pre;
+}
+
+.palabra-pre {
+	font-family: 'Courier New';
+	font-size: 16pt;
+	color: #483d8b;
+	font-weight: bold;
+}
+
+.texto-linea {
+	font-family: Georgia;
+	margin-left: 70px;
+	text-decoration: overline;
+	margin-top:0px;
+}
+
+.texto-azul {
+	font-family: 'Times New Roman';
+	color: #483d8b;
+	font-size: 25pt;
+	font-weight: bold;
+	position: relative;	
+}

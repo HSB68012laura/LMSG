@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Comic";
+  src:
+      url("COMIC.ttf");
+}
+body {
+  background-color: #c6d9ee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 30pt;
+  text-align: right;
+}
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight:800;
+  text-transform: uppercase;
+  &::first-letter{
+    font-size: 120%;
+  }
+}
+P {
+    text-indent: 30px;
+    text-align: justify;
+}
+.cs {
+  font-family: Comic ;
+  color: red;
+  font-weight: bold;
+}
+
+.csbolder {
+  font-weight: bolder;
+}
+.nrnj {
+  color: orange;
+}
+.it {
+  color: orange;
+  font-weight: bolder;
+}
+.grn {
+  background-color: #ffffff;
+  color: green;
+  font-style: italic;
+}
+
+
+
