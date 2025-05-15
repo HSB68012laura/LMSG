@@ -1,0 +1,87 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class simulacro {
+    public static void simulacro(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            ArrayList<String> lista = new ArrayList<>();
+            String opcion;
+            
+            do {
+                System.out.println("Seleccione una opción):");
+                System.out.println("A. Añadir elemento a la lista");
+                System.out.println("B. Insertar elementos de la lista");
+                System.out.println("C. Ordenar la lista");
+                System.out.println("D. Eliminar un elemento de la lista");
+                System.out.println("E. Muestra por pantalla el contenido de la lista");
+                System.out.println("F. Salir");
+                opcion = scanner.nextLine().toUpperCase();
+                
+                switch (opcion) {
+                    case "A" -> {
+                        System.out.println("Ingrese una palabra:");
+                        String elemento = scanner.nextLine();
+                        lista.add(elemento);
+                    }
+                    case "B" -> {
+                        System.out.println("Ingrese palabra:");
+                        String palabra = scanner.nextLine();
+                        int posicion;
+                        do {
+                            System.out.println("Posicion (0 a " + lista.size() + "):");
+                        } while (!scanner.hasNextInt());
+                        {
+                            System.out.println("Número no válido.");
+                            posicion = scanner.nextInt();
+                        }
+                        if (posicion < 0 || posicion > lista.size()) {
+                            System.out.println("Posición no válida.");
+                        }
+                        while (posicion < 0 || posicion > lista.size())
+                            lista.add(posicion, palabra);
+                        System.out.println("Palabra añadida ");
+                    }
+                    case "C" -> {
+                        Collections.sort(lista);
+                        System.out.println("Lista ordenada:");
+                    }
+                    case "D" -> {
+                        if (!lista.isEmpty()) {
+                            int indice;
+                            do {
+                                System.out.println("Número de elemento a eliminar (1-" + lista.size() + "):");
+                                while (!scanner.hasNextInt()) {
+                                    System.out.println("Número no válido.");
+                                    scanner.next();
+                                }
+                                indice = scanner.nextInt();
+                                scanner.nextLine(); // Consume newline
+                                if (indice < 1 || indice > lista.size()) {
+                                    System.out.println("Número no válido.");
+                                }
+                            } while (indice < 1 || indice > lista.size());
+                            lista.remove(indice - 1);
+                            System.out.println("Elemento eliminado.");
+                        } else {
+                            System.out.println("Lista vacía.");
+                        }
+                    }
+                    case "E" -> {
+                        if (lista.isEmpty()) {
+                            System.out.println("La lista está vacía.");
+                        } else {
+                            System.out.println("Contenido de la lista:");
+                            for (String item : lista) {
+                                System.out.println(item);
+                            }
+                        }
+                    }
+                    case "F" -> System.out.println("Saliendo...");
+                    default -> System.out.println("Opción no válida.");
+                }
+                System.out.println();
+            } while (!opcion.equals("F"));
+        }
+    }
+}
